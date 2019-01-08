@@ -1,0 +1,32 @@
+# You can use this file in VS code to send requests and check responses,
+# if you have REST Client addon installed
+POST http://localhost:3000/hello
+Content-Type: application/json
+
+Mine payload
+###
+POST http://localhost:3000/hello
+Content-Type: application/json
+###
+
+GET http://localhost:3000/hello
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/hello
+Content-Type: application/json
+###
+DELETE http://localhost:3000/hello
+Content-Type: application/json
+###
+POST http://localhost:3000/hello_there
+Content-Type: application/json
+###
+GET http://localhost:3000/hello_there
+Content-Type: application/json
+
+###
+POST http://localhost:3000/hello_there
+Content-Type: application/json
+
+General Kenobi
